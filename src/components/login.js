@@ -7,7 +7,7 @@ const Login = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://inotebook-backend-production-20b6.up.railway.app/api/auth/login", {
+    const response = await fetch("https://inotebook-backend-pq5x.onrender.com/api/auth/login", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import noteContext from "./NoteContext";
 
 const NoteState = (props) => {
-    const host = "https://inotebook-backend-production-20b6.up.railway.app";
+    const host = "https://inotebook-backend-pq5x.onrender.com";
 
     const [notes, setNotes] = useState([]);
     const [searchQuery, setSearchQuery] = useState(""); 
